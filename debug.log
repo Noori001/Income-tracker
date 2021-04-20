@@ -1,0 +1,5 @@
+[0123/231131.407:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0125/205138.434:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0125/205138.461:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\akmal\AppData\Local\AVAST Software\Browser\User Data\Crashpad\attachments\14427ff5-991b-43ed-8007-09b624e9a1bd: Le chemin d’accès spécifié est introuvable. (0x3)
+[0125/205138.469:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\akmal\AppData\Local\AVAST Software\Browser\User Data\Crashpad\attachments\ad34b770-6604-4bae-932c-5276076bf0b8: Le chemin d’accès spécifié est introuvable. (0x3)
+[0125/205138.469:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\akmal\AppData\Local\AVAST Software\Browser\User Data\Crashpad\attachments\65a92533-6113-4892-bd2e-396b6f7d7813: Le chemin d’accès spécifié est introuvable. (0x3)
