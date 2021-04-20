@@ -11,7 +11,18 @@ function IncomeForm({income, setIncome}) {
 
         // console.log(desc.current.value);
         let d = date.current.value.split("-");
-    }
+        let newD = new Date(d[0], d[1], d[2]);
+
+        setIncome([...income, {
+            "desc" : desc.current.value,
+            "price": price.current.value,
+            "date" : newD.getTime()
+        }]);
+
+        desc.current.value = "";
+        price.current.value = null;
+        date.current.value = null;
+    };
 
     return (
         <form className="income-form" onSubmit={AddIncome}>
