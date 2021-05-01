@@ -1,4 +1,5 @@
-import React, {useRef} from 'react'
+import React, {useRef} from 'react';
+import './IncomeForm.css';
 
 function IncomeForm({income, setIncome}) {
 
@@ -33,7 +34,7 @@ function IncomeForm({income, setIncome}) {
                 placeholder="Price." ref={price} />
                 <input type="date" name="date" id="date"
                 placeholder="Income date" ref={date} />
-                <input type="submit" value="Add Income" />
+                <input className="form-submit" type="submit" value="Add Income" />
             </div>
         </form>
     )
